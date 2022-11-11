@@ -29,3 +29,13 @@ npm run build
 ```
 # BPN_00
 # BPN_00
+
+#deploy
+> แก้ไข vite.conflig.js ให้มี base ตามด้วย "/ชื่อ ropo/"
+'''bash
+npm run build
+'''
+
+> 'git add dist -f'
+> 'git commit -m "deploy"'
+> 'git subtree push --prefix dist origin gh-pages'
