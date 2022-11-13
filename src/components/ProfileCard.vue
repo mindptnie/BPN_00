@@ -13,7 +13,7 @@
     <div
        class="relative h-60 w-60 rounded-full overflow-hidden bg-pink-300 mx-auto border-violet-900/70 border-2 hover:scale-95"
      >
-       <img src="image" alt="">
+       <img :src="image" alt="">
        <div class="h-full bg-cover bg-center bg-no-repeat" :style="getUrlImage(image)"></div>
        
    
@@ -67,7 +67,7 @@
      },
      image: {
        type: String,
-       default: "/assets/images/cream.jpg",
+       default: "https://i.pinimg.com/564x/5d/a4/f5/5da4f5b4e1d7edc3af20ec3287c76b1e.jpg",
      },
      facebook:{
       type: String,

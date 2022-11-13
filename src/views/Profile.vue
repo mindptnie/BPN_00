@@ -13,7 +13,7 @@
       <div class="text-3xl font-extrabold hover:scale-95">
       <button class="text-xl font-bold text-white font-itim p-3 rounded-lg shadow-xl shadow-violet-400/50 
       transition ease-in-out delay-100 hover:animate-pulse hover:bg-green-400 hover:shadow-lime-500/50 hover:scale-105" style="background-image: url(https://i.pinimg.com/originals/08/f6/78/08f6786eb23a9b86403e105180578d6c.gif)">
-      <a href="http://127.0.0.1:5500/index.html?">MORE INFO</a>
+      <a href="https://github.com/mindptnie/BPN_EXTRA">MORE INFO</a>
 
       </button>
 
@@ -47,7 +47,7 @@
 
 </template>
 <script>
-import profileCard from "../components/ProfileCard.vue";
+import profileCard from "/src/components/ProfileCard.vue";
 export default {
    data() {
         return {
