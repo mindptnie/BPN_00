@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import Profile from '../views/Profile.vue'
 import FromView from '../views/FromView.vue'
 
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [

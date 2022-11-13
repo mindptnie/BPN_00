@@ -5,7 +5,10 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {fontFamily: {
+      'Share Tech Mono': ['monospace','Share Tech Mono'],
+      
+    }
   },
   plugins: [],
-}
+}}

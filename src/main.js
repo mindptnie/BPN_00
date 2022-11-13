@@ -12,6 +12,7 @@ library.add(fab);
 import { far } from '@fortawesome/free-regular-svg-icons';
 library.add(far);
 
+
 const app = createApp(App)
 app.component("font-awesome-icon", FontAwesomeIcon);
 
