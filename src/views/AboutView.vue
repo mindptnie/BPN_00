@@ -1,15 +1,17 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div>
+  
   </div>
 </template>
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
-</style>
+
+
+<script>
+
+import { db } from '../firebase/index'
+
+db.collection("Festivals").doc("7sUoUKlcKdZxYUu0bhEi").get().then(doc => {
+    console.log(doc.data())
+  })
+
+</script>
