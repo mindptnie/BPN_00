@@ -1,0 +1,1 @@
+import{_ as e,d as t,o as c,c as s}from"./index.308fc1dc.js";t.collection("Festivals").doc("7sUoUKlcKdZxYUu0bhEi").get().then(o=>{console.log(o.data())});const a={};function n(o,r,d,l,i,_){return c(),s("div")}const f=e(a,[["render",n]]);export{f as default};
